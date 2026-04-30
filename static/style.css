@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 4px 0 10px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 6px 12px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+#item-list {
+  margin-top: 20px;
+}
+
+.item-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.item-card p {
+  margin: 2px 0;
+}
+
+.error {
+  color: red;
+  margin-top: 8px;
+}

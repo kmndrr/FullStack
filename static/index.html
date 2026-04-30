@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Items Manager</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <h1>Items Manager</h1>
+
+  <h2>Add Item</h2>
+  <input type="text" id="name" placeholder="Name" />
+  <textarea id="description" placeholder="Description (optional)" rows="2"></textarea>
+  <button onclick="createItem()">Create</button>
+  <div id="create-error" class="error"></div>
+
+  <h2>Update Item</h2>
+  <input type="number" id="update-id" placeholder="Item ID" />
+  <input type="text" id="update-name" placeholder="New Name" />
+  <textarea id="update-description" placeholder="New Description (optional)" rows="2"></textarea>
+  <button onclick="updateItem()">Update</button>
+  <div id="update-error" class="error"></div>
+
+  <h2>Items</h2>
+  <button onclick="loadItems()">Refresh</button>
+  <div id="item-list"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
